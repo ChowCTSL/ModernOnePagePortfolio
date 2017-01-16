@@ -34,8 +34,7 @@ This project was created to provide others with a template that had a modern tak
 
 - [Bootstrap 3.3.7](http://getbootstrap.com/)
 - [Font Awesome](http://fontawesome.io/)
-- [Portfolio Images - Pexels] (https://www.pexels.com/)
-- [Background Images - Freepik] (http://www.freepik.com/)
+- [Images - Pexels] (https://www.pexels.com/)
 
 
 ### Fonts
