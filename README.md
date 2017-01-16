@@ -32,7 +32,7 @@ This project was created to provide others with a template that had a modern tak
 
 ## Credits
 
-- [Bootstrap 3.3](http://getbootstrap.com/)
+- [Bootstrap 3.3.7](http://getbootstrap.com/)
 - [Font Awesome](http://fontawesome.io/)
 - [Images - Pexels] (https://www.pexels.com/)
 
