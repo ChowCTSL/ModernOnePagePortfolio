@@ -38,8 +38,8 @@ This project was created to provide others with a template that had a modern tak
 
 
 ### Fonts
-Google fonts - [Open Sans](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans)
-Google fonts - [Monserrat](https://fonts.google.com/specimen/Montserrat)
+- Google fonts - [Open Sans](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans)
+- Google fonts - [Monserrat](https://fonts.google.com/specimen/Montserrat)
 
 ## Licensing
 This template is free, and is licensed under the MIT license.
