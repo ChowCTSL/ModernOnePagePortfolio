@@ -2,13 +2,13 @@
 
 This project consists of a modern one page portfolio template, which includes an introduction section, about me section, projects section, and a contact me section.  
 
-This template was made using HTML, CSS, Bootstrap, and jQuery. 
+This template was made using HTML, CSS, Bootstrap, and jQuery.  It is a responsive website that is compatible with mobile.
 
 ## Preview (screenshots)
-![Intro Section]()
-![About Section]()
-![Portfolio Section]()
-![Contact Section]()
+![Intro Section](http://i.imgur.com/JdtWKiN.png)
+![About Section](http://i.imgur.com/sqlZ1hF.png)
+![Portfolio Section](http://i.imgur.com/0Ej2B8L.png)
+![Contact Section](http://i.imgur.com/RpaiOsx.png)
 
 
 ## Getting Started
@@ -39,7 +39,6 @@ This project was created to provide others with a template that had a modern tak
 
 ### Fonts
 - Google fonts - [Open Sans](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans)
-- Google fonts - [Monserrat](https://fonts.google.com/specimen/Montserrat)
 
 ## Licensing
 This template is free, and is licensed under the MIT license.
