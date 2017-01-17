@@ -22,19 +22,16 @@
 	<!-- Google fonts - Open Sans-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic">
 
-	<!-- Google fonts - Lemonada-->
-	<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet"> 
 
-	<!-- Google fonts - Montserrat-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
 	<title>Portfolio</title>
 
 </head>
 <body>
+
 	<!-- Navigation -->
-	<nav id="navbar-main" class="navbar navbar-inverse navbar-custom navbar-fixed-top navbar-transparent">
-		<div class="container">
+	<nav id="navbar-main" class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle fade-in-color" data-toggle="collapse" data-target="#navbar-main-collapsed">
 					<span class="sr-only">Toggle navigation</span><i class="fa fa-bars btn-menu" aria-hidden="true"></i>
@@ -62,12 +59,11 @@
 	</nav>
 
 	<!-- Header Section -->
-	<header class="intro">
+	<header id="intro">
 		<div class="container">
 			<div class="intro-body text-center">
 				<div class="intro-heading">Hi. I'm John,</div>
 				<div class="intro-subheading">a software developer.</div>
-				<a href="documents/filename.pdf" target="_blank" role="button" class="header-btn btn btn-outline btn-lg fade-in-color">View Resume</a>
 				<a href="#about" id="btnScroll" role="button" class="header-btn btn btn-outline btn-lg fade-in-color">Learn More</a>
 			</div>
 		</div>
@@ -77,47 +73,93 @@
 			<div class="row text-center">
 				<h1 class="section-title">About Me</h1>
 			</div>
-			<div class="row about-icons text-center">
-				<div class="col-md-3">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-						<i class="fa fa-graduation-cap fa-stack-1x fa-inverse" aria-hidden="true"></i>
-					</span>
-					<h3 class="about-heading">Learning</h3>
-					<p class="text-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium lacus metus, eu sodales erat commodo id. </p>
+			<div class="row about-body">
+				<div class="col-sm-6 text-center">
+					<img src="img/about.jpg" class="img-responsive img-circle about-photo" alt="">
+					<div class="resume">
+						<a href="documents/resume.pdf" target="_blank" role="button" class="btn btn-lg">View My Resume</a>
+					</div>
 				</div>
-				<div class="col-md-3">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-						<i class="fa fa-camera fa-stack-1x fa-inverse " aria-hidden="true"></i>
-					</span>
-					<h3 class="about-heading">Creativity</h3>
-					<p class="text-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium lacus metus, eu sodales erat commodo id.</p>
-				</div>
-				<div class="col-md-3">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-						<i class="fa fa-handshake-o fa-stack-1x fa-inverse" aria-hidden="true"></i>
-					</span>
-					<h3 class="about-heading">Collaboration</h3>
-					<p class="text-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium lacus metus, eu sodales erat commodo id. </p>
-				</div>
-				<div class="col-md-3">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-						<i class="fa fa-cogs fa-stack-1x fa-inverse" aria-hidden="true"></i>
-					</span>
-					<h3 class="about-heading">Critical Thinking</h3>
-					<p class="text-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium lacus metus, eu sodales erat commodo id. </p>
+				<div class="col-sm-6">
+					<h4>Who I am</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex sem, varius vel dui in, condimentum mattis sem. Curabitur ex augue, sodales eu turpis non, tempor consequat dui. Sed eleifend hendrerit tempor. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<div class= "skill-list">
+						<h4>Technical Skills</h4>
+						<div class="skill">
+							<div class="skill-title">Java</div>
+							<div class="progress">
+								<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;" class="progress-bar progress-skill"><span class="sr-only">60</span></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skill-title">C#</div>
+							<div class="progress">
+								<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 63%;" class="progress-bar progress-skill"><span class="sr-only">60</span></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skill-title">HTML, CSS, BootStrap</div>
+							<div class="progress">
+								<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" class="progress-bar  progress-skill"><span class="sr-only">60</span></div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skill-title">JavaScript</div>
+							<div class="progress">
+								<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 63%;" class="progress-bar progress-skill"><span class="sr-only">60</span></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="portfolio">
+	<section id="portfolio"> 
 		<div class="container">
-			<div class="row">
-				<div class="text-center">
-					<h1 class="section-title">Portfolio</h1>
+			<div class="row text-center">
+				<h1 class="section-title">Portfolio</h1>
+			</div>
+		</div>
+		<div class="container-fluid port-collection">
+			<div class="row no-gutter">
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox">
+						<a href="img/portfolio/one.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 1" data-footer="Description of Project No.1"><img src="img/portfolio/one.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox"><a href="img/portfolio/two.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 2" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/two.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox">
+						<a href="img/portfolio/three.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 3" data-footer="This project consists of stuff."><img src="img/portfolio/three.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox"><a href="img/portfolio/four.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 4" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/four.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutter">
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox">
+						<a href="img/portfolio/five.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 5" data-footer="Description of Project No.1"><img src="img/portfolio/five.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox"><a href="img/portfolio/six.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 6" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/six.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox">
+						<a href="img/portfolio/seven.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of work 7" data-footer="Hath he no faith."><img src="img/portfolio/seven.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<div class="portbox">
+						<a href="img/portfolio/eight.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 8" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/eight.jpg" alt="" class="port-image img-responsive"></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -126,51 +168,72 @@
 		<div class="container">
 			<div class="row text-center">
 				<h1 class="section-title">Contact Me</h1>
-				<h4 class="section-subheading">I <i class="fa fa-heart fa-lg" aria-hidden="true"></i> meeting new people!</h4>
+				<h4 class="section-subheading">I love meeting new people!</h4>
 			</div>
 			<div class="row contact-icons text-center">
-				<div class="col-md-4">
-					<span class="fa-stack fa-4x">
-						<a href="mailto:email@email.com">
-							<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-							<i class="fa fa-envelope fa-stack-1x" aria-hidden="true"></i>
-						</a>
-					</span>
-					<p class="contact-icon-caption">Email</p>
-				</div>
-				<div class="col-md-4">
-					<span class="fa-stack fa-4x">
-						<a href="link_here" target="_blank">
-							<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-							<i class="fa fa-github fa-stack-1x" aria-hidden="true"></i>
-						</a>
-					</span>
-					<p class="contact-icon-caption">GitHub</p>
-				</div>
-				<div class="col-md-4">
-					<span class="fa-stack fa-4x">
-						<a href="link_here" target="_blank">
-							<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-							<i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
-						</a>
-					</span>
-					<p class="contact-icon-caption">Linkedin</p>
+				<div class="col-lg-12">
+					<ul class="list-inline social-buttons">
+						<li>
+							<span class="fa-stack fa-3x">
+								<a href="mailto:email@email.com">
+									<i class="fa fa-circle fa-stack-2x fade-in-color" aria-hidden="true"></i>
+									<i class="fa fa-envelope fa-stack-1x fade-in-color" aria-hidden="true"></i>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="fa-stack fa-3x">
+								<a href="#" target="_blank">
+									<i class="fa fa-circle fa-stack-2x fade-in-color" aria-hidden="true"></i>
+									<i class="fa fa-github fa-stack-1x fade-in-color" aria-hidden="true"></i>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="fa-stack fa-3x">
+								<a href="#" target="_blank">
+									<i class="fa fa-circle fa-stack-2x fade-in-color" aria-hidden="true"></i>
+									<i class="fa fa-facebook fa-stack-1x fade-in-color" aria-hidden="true"></i>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="fa-stack fa-3x">
+								<a href="#" target="_blank">
+									<i class="fa fa-circle fa-stack-2x fade-in-color" aria-hidden="true"></i>
+									<i class="fa fa-twitter fa-stack-1x fade-in-color" aria-hidden="true"></i>
+								</a>
+							</span>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</section>
-		<footer>
-			<div class="credits text-center">
-				<p>Copyright &#169; 2017</p>
+			<div class="row text-center">
+				<i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+				<div class="address-info">
+					<p>Toronto, ON</p>
+					<p>123 street name dr nw</p>
+					<p>Canada</p>
+				</div>
 			</div>
-			<!-- Minified jQuery -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		</div>
+	</section>
+	<footer>
+		<div class="credits text-center">
+			<p>Copyright &copy; 2017</p>
+		</div>
+		<!-- Minified jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- ekko-lightbox JavaScript -->
+		<script src="js/ekko-lightbox.js" ></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js" ></script>
 
-			<!-- Custom jQuery -->
-			<script src="js/custom.js"></script>
-		</footer>
+		<!-- Minified BootStrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	</body>
-	</html>
+		<!-- Custom JavaScript -->
+		<script src="js/custom.js" ></script>
+	</footer>
+</body>
+</html>
