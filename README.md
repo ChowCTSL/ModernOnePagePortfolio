@@ -1,4 +1,4 @@
-# Modern One Page Portfolio
+# Modern One Page Portfolio - Style 1
 
 This project consists of a modern one page portfolio template, which includes an introduction section, about me section, projects section, and a contact me section.  
 
