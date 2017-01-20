@@ -30,7 +30,6 @@
 @media screen and (max-width: 767px) {
 	html, body {
 		height:auto !important;
-		overflow-x: hidden;
 	}
 
 	.intro-body {
@@ -322,7 +321,7 @@ footer {
 }
 
 .port-collection{
-	padding: 75px 0;
+	padding-top: 75px;
 }
 
 .portbox{
